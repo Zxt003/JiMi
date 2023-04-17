@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html,body{
+    height: 1524px;
+    width: 954px;
+    background-color: #ccc;
+    margin: 0 auto;
+    
+}
+
+/* 利用项目剩余宽高实现三栏布局 */
+.box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.box header{
+    width: 100%;
+    height: 404px;
+    background-color: #242a3a; 
+     display: flex;
+    flex-direction: column;
+}
+.box header .header1{
+    height: 130px;
+    display: flex;
+    color: #fff;
+    justify-self: space-around;
+    align-items: center;
+}
+.box header .header1 i{
+    width: 120px;
+    font-size: 44px;
+    text-align: center;
+}
+.box header .header1 span{
+    flex: 1;
+    color: #fff;
+    font-size:42px;
+    margin-left: 20px;
+}
+.box header .top{
+    height: 130px;
+    display: flex;
+    color: #fff;
+    margin-top: 50px;
+    justify-self: space-around;
+    align-items: center;
+}
+.box header .top div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.box header .top i{
+    width: 120px;
+    font-size: 80px;
+    text-align: center;
+}
+.box header .top span{
+    flex: 1;
+    color: #fff;
+    font-size:30px;
+    margin-left: 20px;
+}
+.box section a{
+    text-decoration: none;
+}
+.box section{
+    width: 100%;
+    flex: 1;
+    background-color: #f4f5f9;
+}
+.box section .ed{
+  width: 100%;
+  height: 630PX;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-color: #ffff;
+}
+.box section .ed div{
+    width: 25%;
+    height: 210px;
+    border: 1px solid #ececec;
+    box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.box section .ed div i{
+    font-size: 80px;
+    color: brown;
+    margin-bottom: 10px;
+}
+.box section .ed span{
+   
+    font-size:25px;
+}
+
+.box section .ed3{
+    flex: 1;
+    display: flex;
+    
+}
+.box section .ed3 img{
+    width: 954px;
+    margin-top: 50px;
+    display: flex;
+}
+.box footer{
+    width: 100%;
+    height: 184px;
+    background-color: #fff; 
+     display: flex;
+     border-top: 1px solid rgba(204, 204, 204, 0.432);
+    flex-direction: row;
+    
+}
+
+.box footer  div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+    
+}
+.box footer  i{
+    font-size: 60px;
+
+}
+.box footer span{
+    font-size:25px;
+   
+}
+.box footer div:hover{
+    color: skyblue;
+   
+}
